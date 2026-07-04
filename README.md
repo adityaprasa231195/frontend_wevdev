@@ -118,5 +118,4 @@ Learning is always better together! 💙
 > *"Consistency beats intensity."* 🚀
 
 </div>
-````
 
