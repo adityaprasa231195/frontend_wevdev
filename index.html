@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Londrina+Shadow&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>CSS Practice Page</title>
+    <style>
+        h2{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: x-small;
+            
+        }
+    
+    
+    </style>
+</head>
+<body style="background-color: mintcream; color: whitesmoke">
+
+    <header>
+        <h1 class="hi">Welcome to My Practice Website</h1>
+        <p>Use CSS to make this page look amazing.</p>
+    </header>
+
+    <nav >
+        <ul >
+            <li style="cololr:blue;"><a href="#">Home</a></li>
+            <li style="color: crimson;"><a href="#" style="color: black">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section>
+            <h2>About Me</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Doloremque, vitae. Practice typography, spacing, and colors
+                using CSS.
+            </p>
+
+            <img src="https://via.placeholder.com/400x250" alt="Placeholder Image">
+
+        </section>
+
+        <section>
+
+            <h2>My Skills</h2>
+
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>React</li>
+            </ul>
+
+        </section>
+
+        <section>
+
+            <h2>Services</h2>
+
+            <div>
+                <h3>Web Design</h3>
+                <p>Create beautiful websites.</p>
+                <button>Learn More</button>
+            </div>
+
+            <div>
+                <h3>Frontend Development</h3>
+                <p>Build responsive interfaces.</p>
+                <button>Learn More</button>
+            </div>
+
+            <div>
+                <h3>Backend Development</h3>
+                <p>Create secure APIs.</p>
+                <button>Learn More</button>
+            </div>
+
+        </section>
+
+        <section>
+
+            <h2>Pricing</h2>
+
+            <table border="1">
+
+                <tr>
+                    <th>Plan</th>
+                    <th>Price</th>
+                    <th>Support</th>
+                </tr>
+
+                <tr>
+                    <td>Basic</td>
+                    <td>$10</td>
+                    <td>Email</td>
+                </tr>
+
+                <tr>
+                    <td>Standard</td>
+                    <td>$30</td>
+                    <td>Email + Chat</td>
+                </tr>
+
+                <tr>
+                    <td>Premium</td>
+                    <td>$60</td>
+                    <td>24/7 Support</td>
+                </tr>
+
+            </table>
+
+        </section>
+
+        <section>
+
+            <h2>Gallery</h2>
+
+            <div>
+                <img src="https://via.placeholder.com/200" alt="">
+                <img src="https://via.placeholder.com/200" alt="">
+                <img src="https://via.placeholder.com/200" alt="">
+                <img src="https://via.placeholder.com/200" alt="">
+            </div>
+
+        </section>
+
+        <section>
+
+            <h2>Testimonials</h2>
+
+            <article>
+                <h3>John Doe</h3>
+                <p>"Amazing work! Highly recommended."</p>
+            </article>
+
+            <article>
+                <h3>Jane Smith</h3>
+                <p>"Very professional and creative."</p>
+            </article>
+
+            <article>
+                <h3>Alex Johnson</h3>
+                <p>"Delivered the project on time."</p>
+            </article>
+
+        </section>
+
+        <section>
+
+            <h2>Frequently Asked Questions</h2>
+
+            <details>
+                <summary>What services do you offer?</summary>
+                <p>Web design and development.</p>
+            </details>
+
+            <details>
+                <summary>Do you work remotely?</summary>
+                <p>Yes, I work with clients worldwide.</p>
+            </details>
+
+            <details>
+                <summary>How can I contact you?</summary>
+                <p>Use the contact form below.</p>
+            </details>
+
+        </section>
+
+        <section>
+
+            <h2>Contact Form</h2>
+
+            <form>
+
+                <label for="name">Name</label><br>
+                <input type="text" id="name" placeholder="Enter your name"><br><br>
+
+                <label for="email">Email</label><br>
+                <input type="email" id="email" placeholder="Enter your email"><br><br>
+
+                <label for="phone">Phone</label><br>
+                <input type="tel" id="phone"><br><br>
+
+                <label for="country">Country</label><br>
+
+                <select id="country">
+                    <option>India</option>
+                    <option>USA</option>
+                    <option>Canada</option>
+                    <option>Australia</option>
+                </select>
+
+                <br><br>
+
+                <label>Gender</label><br>
+
+                <input type="radio" name="gender"> Male
+                <input type="radio" name="gender"> Female
+
+                <br><br>
+
+                <label>Skills</label><br>
+
+                <input type="checkbox"> HTML
+                <input type="checkbox"> CSS
+                <input type="checkbox"> JavaScript
+
+                <br><br>
+
+                <label for="message">Message</label><br>
+
+                <textarea id="message" rows="5" cols="40"></textarea>
+
+                <br><br>
+
+                <button type="submit">Send</button>
+                <button type="reset">Reset</button>
+
+            </form>
+
+        </section>
+
+        <section>
+
+            <h2>Extra Content</h2>
+
+            <p id="p1">Lorem ipsum dolor sit amet.</p>
+
+            <blockquote>
+                "Practice makes perfect."
+            </blockquote>
+
+            <pre>
+function hello() {
+    console.log("Hello World");
+}
+            </pre>
+
+            <code>
+const name = "Developer";
+            </code>
+
+            <hr>
+
+            <p>
+                This is <strong>bold</strong>,
+                <em>italic</em>,
+                <mark>highlighted</mark>,
+                <small>small text</small>,
+                <del>deleted</del>,
+                <ins>inserted</ins>,
+                <sup>superscript</sup>,
+                <sub>subscript</sub>.
+            </p>
+
+        </section>
+
+    </main>
+
+    <aside>
+
+        <h2>Latest News</h2>
+
+        <ul>
+            <li>New project launched</li>
+            <li>Portfolio updated</li>
+            <li>Learning advanced CSS</li>
+            <li>Practicing Flexbox</li>
+            <li>Practicing Grid</li>
+        </ul>
+
+    </aside>
+
+    <footer>
+
+        <p>&copy; 2026 My Practice Website</p>
+
+        <p id="p2">
+            Follow us on
+            <a href="#">Facebook</a>,
+            <a href="#">Instagram</a>,
+            <a href="#">LinkedIn</a>,
+            <a href="#">GitHub</a>
+        </p>
+
+    </footer>
+
+</body>
+</html>
